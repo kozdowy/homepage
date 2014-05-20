@@ -29,9 +29,9 @@ function populateLinks(){
     var links = xmlDoc.getElementsByTagName("link"); 
     var linkElements = document.getElementsByTagName("td");
     for (var i = 0; i < 8; i++){
-        linkName = links[i].getElementsByTagName("name")[0].nodeValue;
+        linkName = links[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
         console.log(linkName);
-        linkURL = links[i].getElementsByTagName("url")[0].nodeValue;
+        linkURL = links[i].getElementsByTagName("url")[0].childNodes[0].nodeValue;
         console.log(linkURL);
         linkElements[i].innerHTML =
             "<a href=" + linkURL + ">" +
