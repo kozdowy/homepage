@@ -36,9 +36,10 @@ function populateLinks(){
         linkElements[i].innerHTML =
             "<a href=" + linkURL + ">" +
                 "<div class='quicklink'>" +
+                    "<img src=\"images/" + linkName + "\" />" + 
                 "</div>" +
             "</a>";
-        linkElements[i].style.backgroundImage= "url(images/" + linkName + ".png)";
-        linkElements[i].style.backgroundSize = "100% 100%";
+        //linkElements[i].style.backgroundImage= "url(images/" + linkName + ".png)";
+        //linkElements[i].style.backgroundSize = "100% 100%";
     }
 }
