@@ -1,13 +1,13 @@
 <links>
-<link><name>Facebook</name> <url>https://facebook.com</url></link>
-<link><name>Gmail</name> <url>https://mail.google.com</url></link>
-<link><name>UMichEmail</name> <url>https://email.umich.edu</url></link>
-<link><name>Wikipedia</name> <url>http://en.wikipedia.org</url></link>
-<link><name>Google</name> <url>https://google.com</url></link>
-<link><name>4chan</name> <url>https://4chan.org</url></link>
-<link><name>Amazon</name> <url>https://amazon.com</url></link>
-<link><name>eBay</name> <url>https://ebay.com</url></link>
-<link><name>Wolverine</name> <url>https://wolverineaccess.umich.edu</url></link>
-<link><name>Reddit</name> <url>http://reddit.com</url></link>
-<link><name>4chan</name> <url>https://4chan.org</url></link>
+	<link><name>Facebook</name> <url>https://facebook.com</url></link>
+	<link><name>Gmail</name> <url>https://mail.google.com</url></link>
+	<link><name>UMichEmail</name> <url>https://email.umich.edu</url></link>
+	<link><name>Wikipedia</name> <url>http://en.wikipedia.org</url></link>
+	<link><name>Google</name> <url>https://google.com</url></link>
+	<link><name>ArchWiki</name> <url>https://wiki.archlinux.org</url></link>
+	<link><name>Amazon</name> <url>https://amazon.com</url></link>
+	<link><name>eBay</name> <url>https://ebay.com</url></link>
+	<link><name>Wolverine</name> <url>https://wolverineaccess.umich.edu</url></link>
+	<link><name>Reddit</name> <url>http://reddit.com</url></link>
+	<link><name>4chan</name> <url>https://4chan.org</url></link>
 </links>

@@ -36,7 +36,7 @@ function populateLinks(){
         linkElements[i].innerHTML =
             "<a href=" + linkURL + ">" +
                 "<div class='quicklink'>" +
-                    "<img src=\"images/" + linkName + "\" />" + 
+                    "<img src=\"images/" + linkName + ".png\" />" + 
                 "</div>" +
             "</a>";
         //linkElements[i].style.backgroundImage= "url(images/" + linkName + ".png)";
