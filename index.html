@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <head>
     <script src="script.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Homepage</title>
 </head>
 <body onload="startup(); setInterval('updateClock()', 1000)">
@@ -34,6 +33,10 @@
                 </td>
             </tr>
         </table>
+    </div>
+    <div class="transp" id="linkselectors">
+        <input type="button" value="Change Links" onClick="createLinkChanger()" />
+        <span id="hiddenValues"></span>
     </div>
     <div class="transp" id="footer">
     </div>

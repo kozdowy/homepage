@@ -46,6 +46,10 @@ body {
     height: 50px;
 }
 
+#hiddenValues{
+    opacity: 1;
+}
+
 .transp {
 	opacity: 0.7;
 }
