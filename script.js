@@ -30,9 +30,9 @@ function populateLinks(){
     var linkElements = document.getElementsByTagName("td");
     for (var i = 0; i < 8; i++){
         linkName = links[i].getElementsByTagName("name")[0].nodeValue;
-        Console.log(linkName);
+        console.log(linkName);
         linkURL = links[i].getElementsByTagName("url")[0].nodeValue;
-        Console.log(linkURL);
+        console.log(linkURL);
         linkElements[i].innerHTML =
             "<a href=" + linkURL + ">" +
                 "<div class='quicklink'>" +
