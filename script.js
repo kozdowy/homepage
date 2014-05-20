@@ -1,5 +1,6 @@
 function startup(){
     document.getElementById("footer").innerHTML = "Page last modified on " + document.lastModified;
+    populateLinks();
     updateClock();
 }
 
@@ -15,28 +16,27 @@ function updateClock(){
     document.getElementById("clock").innerHTML = "<h6>" + currentTimeString + "</h6>";
 }
 
-/*
 function populateLinks(){
-    var links = [
-        ["Facebook", "https://facebook.com"],
-        ["Gmail", "https://mail.google.com"],
-        ["UMichEmail", "http://email.umich.edu"],
-        ["Wikipedia", "https://en.wikipedia.org"],
-        ["Google", "https://google.com"],
-        ["ArchWiki", "https://wiki.archlinux.org"],
-        ["Amazon", "https://amazon.com"],
-        ["eBay", "http://ebay.com"]];
+    if (window.XMLHttpRequest){
+        xmlhttp=new XMLHttpRequest();
+    }
+    else{
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.open("GET","links.xml",false);
+    xmlhttp.send();
+    xmlDoc=xmlhttp.responseXML;
+    var links = xmlDoc.getElementsByTagName("link"); 
     var linkElements = document.getElementsByTagName("td");
     for (var i = 0; i < 8; i++){
+        linkName = links[i].getElementsByTagName("name")[0].nodeValue;
+        linkURL = links[i].getElemntsByTagName("url")[0].nodeValue;
         linkElements[i].innerHTML =
-            "<a href=" + links[i][1] + ">" +
+            "<a href=" + linkURL + ">" +
                 "<div class='quicklink'>" +
-               //     "<p>" + links[i][0] + "</p>" +
                 "</div>" +
             "</a>";
-        linkElements[i].style.backgroundImage= "url(images/" + links[i][0] + ".png)";
+        linkElements[i].style.backgroundImage= "url(images/" + linkName + ".png)";
         linkElements[i].style.backgroundSize = "100% 100%";
-        //linkElements[i].style.opacity = "0.5";
     }
 }
-*/
