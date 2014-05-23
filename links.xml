@@ -11,3 +11,21 @@
 	<link><name>Reddit</name> <url>http://reddit.com</url></link>
 	<link><name>4chan</name> <url>https://4chan.org</url></link>
 </links>
+
+{ "links":
+[
+	{"name" : "Facebook", "url" : "https://facebook.com"},
+	{"name" : "Gmail", "url" : "https://mail.google.com"},
+
+	{"name" : "Gmail", "url" : "https://mail.google.com"},
+	{"name" : "UMichEmail", "url" : "https://mail.google.com"},
+	{"name" : "Wikipedia", "url" : "https://email.umich.edu"},
+	{"name" : "Google", "url" : "https://google.com"},
+	{"name" : "ArchWiki", "url" : "https://wiki.archlinux.org"},
+	{"name" : "Amazon", "url" : "https://amazon.com"},
+	{"name" : "eBay", "url" : "https://ebay.com"},
+	{"name" : "Wolverine", "url" : "https://wolverineaccess.umich.edu"},
+	{"name" : "Reddit", "url" : "http://reddit.com"},
+	{"name" : "4chan", "url" : "https://4chan.org"}
+]
+}

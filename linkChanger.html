@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <head>
+    <link rel="stylesheet" type="text/css" href="linkstyle.css">
     <script src="script.js"></script>
     <title>Homepage</title>
 </head>
 <body onload="addLinksToChanger()"> 
     <div id="linkChoices">
-        <form name="links">
+        <form id="link" name="links">
         </form>
-        <span>
-            <input type="button" value="Set Changes" onClick="applyLinkChanges()" />
-        </span>
+        <div style="float: left">
+            <!--<input type="button" value="Set Changes" onClick="applyLinkChanges()" />-->
+            Must have 8 to change
+        </div>
+        <div style="float: right;" id="linkcount">
+        </div>
     </div>
 </body>

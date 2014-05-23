@@ -34,9 +34,24 @@
             </tr>
         </table>
     </div>
-    <div class="transp" id="linkselectors">
-        <input type="button" value="Change Links" onClick="createLinkChanger()" />
+    <div id="linkselectors">
+        <input class="transp" type="button" value="Change Links" onClick="createLinkChanger()" />
         <span id="hiddenValues"></span>
+        <div id = "popup"> 
+            <div id="linkList">
+                <form id="link" name="links">
+                </form>
+                <div style="float: left">
+                    <!--<input type="button" value="Set Changes" onClick="applyLinkChanges()" />-->
+                    Must have 8 to change
+                </div>
+                <div style="float: right;" id="linkcount">
+                </div>
+            </div>
+            <div id="closePOP">
+                <input type="button" value="Close" onClick="closeLinkChanger()" />
+            </div>
+        </div>
     </div>
     <div class="transp" id="footer">
     </div>
